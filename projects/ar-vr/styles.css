@@ -22,10 +22,10 @@ body{
     color: var(--text-color);
 }
 
-.main-content{
+/* .main-content{
     display: block;
     width: 100%;
-}
+} */
 
 .header {
     height: 80px;
@@ -56,19 +56,18 @@ h1 a{
 .img-big{
     width: 780px;
     height: 440px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: block;
+    margin: auto;
+    border: solid white 2px;
+    box-shadow: 0 2px 10px rgb(0, 0, 0, 0.1);
 }
 
 .img-container{
-    margin-top: 15px;
     width: 780px;
     height: 440px;
     padding: 70px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: block;
+    margin: auto;
     border: solid rgb(177, 177, 177) 3px;
 }
 
