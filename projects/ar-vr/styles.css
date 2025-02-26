@@ -80,7 +80,7 @@ h1 a{
 }
 
 .img-container{
-    width: 780px;
+    width: 833px;
     height: 440px;
     padding: 45px;
     display: block;
@@ -112,4 +112,21 @@ h1, h2{
     margin: 0 auto;
     border: solid rgb(177, 177, 177) 3px;
     border-radius: 5px;
+}
+
+#paper-wf {
+    width: 833px;
+    height: 400px;
+    padding: 60px;
+    display: block;
+    margin: 0 auto;
+    border: solid rgb(177, 177, 177) 3px;
+    border-radius: 5px;
+}
+
+.prototype-img{
+    width: 440px;
+    height: 250px;
+    border-radius: 5px;
+    border: solid white 2px;
 }
