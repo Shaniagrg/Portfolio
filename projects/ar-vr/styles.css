@@ -130,3 +130,53 @@ h1, h2{
     border-radius: 5px;
     border: solid white 2px;
 }
+
+#user-journey{
+    border: solid rgb(99, 99, 99) 3px;
+    border-collapse: collapse;
+    width: 90%;
+    margin: 20px auto;
+}
+
+th, td {
+    border: 1px solid rgb(99, 99, 99);
+    padding: 15px; /* Adds space inside cells */
+    text-align: left; /* Aligns text properly */
+    vertical-align: top; /* Ensures content starts from the top */
+    min-width: 150px; /* Prevents the cells from being too small */
+    word-break: break-word; 
+    overflow-wrap: break-word;
+}
+
+#user-journey th:first-child,
+#user-journey td:first-child {
+    width: 250px; /* Increases space to prevent text from wrapping */
+    text-align: center; /* Centers text horizontally */
+    vertical-align: middle; /* Centers text vertically */
+}
+
+#user-journey th:last-child,
+#user-journey td:last-child {
+    width: 220px; /* Adjust this value if needed */
+}
+
+td ol {
+    list-style-position: inside; 
+    padding-left: 0; 
+    margin: 10px 0; 
+    padding-left: 20px;
+    word-break: break-word; 
+    overflow-wrap: break-word; 
+    list-style-type: disc;
+}
+
+td{
+    padding: 20px;
+}
+
+thead th {
+    text-align: center;
+    vertical-align: middle; /* Centers content vertically */
+    padding: 15px;
+    height: 50px;
+}
