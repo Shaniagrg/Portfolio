@@ -113,6 +113,23 @@ h1, h2{
     margin: 0 auto;
     border: solid rgb(177, 177, 177) 3px;
     border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.pp{
+    width: 308px;
+    text-align: center;
+}
+
+.pp h3{
+    margin-bottom: 20px;
+}
+
+.pp p{
+    margin: 0 0 70px 0;
 }
 
 #paper-wf {
