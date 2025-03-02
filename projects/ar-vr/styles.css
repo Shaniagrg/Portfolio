@@ -198,3 +198,61 @@ thead th {
     padding: 15px;
     height: 50px;
 }
+
+#persona{
+    display: grid;
+    padding: 4rem;
+    row-gap: 1rem;
+    column-gap: 1rem;
+    grid-template-rows: repeat(3,1fr);
+    /* grid-template-rows: auto 4rem auto; */
+    grid-template-columns: repeat(3,1fr);
+}
+
+.emily {
+    width: 141px;
+    height: 212px;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    border-radius: 5px;
+}
+#emily-intro {
+    grid-row-start: 1;
+    grid-row-end: 4;
+    text-align: center;
+    gap: 5rem;
+}
+#tag-line{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    /* height: 4rem; */
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    text-align: center;
+}
+#goals, #frustations {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2rem;
+    overflow: auto;
+}
+
+#descriptions{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    padding: 1rem;
+}
+
+#goals{
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+}
+
+.persona-detail{
+    background: #e6deca;
+    border: 5px solid #e6deca;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgb(0, 0, 0, 0.1);
+}
