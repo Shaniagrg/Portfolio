@@ -73,7 +73,7 @@ h1 a{
     width: 780px;
     height: 440px;
     display: block;
-    margin: auto;
+    margin: 4rem auto;
     border: solid white 2px;
     border-radius: 5px;
     box-shadow: 0 2px 10px rgb(0, 0, 0, 0.1);
@@ -147,6 +147,7 @@ h1, h2{
     height: 250px;
     border-radius: 5px;
     border: solid white 2px;
+    margin: 0 auto;
 }
 
 #user-journey{
@@ -256,3 +257,41 @@ thead th {
     border-radius: 5px;
     box-shadow: 0 2px 10px rgb(0, 0, 0, 0.1);
 }
+
+#paper-wf{
+    margin: 4rem auto;
+}
+.paper-wireframe{
+    width: 218px;
+    height: 291px;
+    padding: 0.4rem;
+}
+.paper-wireframe-3{
+    width: 214px;
+    height: 10rem;
+    margin-bottom: 4.5rem;
+    margin-left: 2.5rem;
+}
+
+.prototype-img--style{
+    padding: 2rem;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-rows: repeat(2, 0.1fr);
+    grid-template-columns: repeat(2, 0.1fr);
+    gap: 1rem;
+}
+
+#prototype-img img{
+    width: 440px; /* Makes images responsive */
+    height: 250px;
+    margin: 0 auto;
+}
+.button{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    text-align: center;
+    margin: 1.6rem;
+}
+
