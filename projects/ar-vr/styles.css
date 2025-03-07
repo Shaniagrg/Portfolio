@@ -388,7 +388,7 @@ thead th {
     
 }
 
-#accessibility{
+#accessibility, #nextstep{
     width: 833px;
     height: 448px;
     padding: 60px;
@@ -401,17 +401,17 @@ thead th {
     gap: 1.5rem;
 }
 
-.accessibility-points{
+.accessibility-points, next-step{
     display: flex;
     flex-direction: column;
     gap: 1rem;
 }
 
-.accessibility-points p{
+.accessibility-points p, .next-step p{
     margin-bottom: 1rem;
 }
 
-#access-p{
+#access-p, #next-step-point{
     margin-bottom: 6.4rem;
 }
 
@@ -421,8 +421,6 @@ thead th {
     background: #000;
 }
 
-.takeaaway{
-    margin-top: 2rem;
-}
+
 
 
