@@ -114,7 +114,20 @@ h1, h2{
 .overview{
     padding: 3rem;
 }
-
+#user-pp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.2rem;
+    margin-top: 2rem;
+}
+#red-dot{
+    border: 1px solid #e21c21;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 10rem;
+    background-color: #e21c21;
+}
 #pain-point{
     width: 833px;
     height: 548px;
