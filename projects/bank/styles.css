@@ -45,3 +45,14 @@ h1 a{
     text-decoration: none;
     color: var(--text-color);
 }
+#content {
+    width: 100%;
+    max-width: 1300px;
+    margin: 2rem auto; 
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    min-height: 100vh;
+    line-height: 1.5;
+}
