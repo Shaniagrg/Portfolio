@@ -72,7 +72,8 @@ h1 a{
 }
 
 .img-big{
-    width: 780px;
+    width: 100%;
+    max-width: 780px;
     height: 440px;
     display: block;
     margin: 2rem auto;
@@ -82,7 +83,8 @@ h1 a{
 }
 
 .img-container{
-    width: 833px;
+    width: 100%;
+    max-width: 833px;
     height: 440px;
     padding: 45px;
     display: block;
@@ -91,7 +93,8 @@ h1 a{
 }
 
 .img-booking{
-    width: 600px;
+    width: 100%;
+    max-width: 600px;
     height: 345px;
     margin-left: 76px;
 }
