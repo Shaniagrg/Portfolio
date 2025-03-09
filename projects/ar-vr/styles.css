@@ -60,7 +60,8 @@ h1 a{
 }
 
 #content {
-    width: 1300px;
+    width: 100%;
+    max-width: 1300px;
     margin: 2rem auto; 
     display: flex;
     flex-direction: column; 
