@@ -111,3 +111,39 @@ h2, p{
 .summary-parts{
     width: 500px;
 }
+
+#user-pain-point{
+    border: 1px solid black;
+    width: 778px;
+    height: 436px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.pain-point{
+    width: 100%;
+    max-width: 310px;
+    height: 190px;
+    border-radius: 2rem;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.291);
+    margin: 2rem;
+    position: relative;
+    text-align: center;
+    display: flex;
+    padding: 1rem;
+}
+.pain-point h3, .pain-point p {
+    padding: 0.5rem;
+}
+.red-dot{
+    border: 2px solid #e21c21;
+    border-radius: 10rem;
+    background-color: #e21c21;
+    height: 54px;
+    width: 54px;
+    position: absolute; /*allows the red dot to move outside th box*/
+    top: -15px;
+    left: -15px;
+
+}
