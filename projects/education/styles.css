@@ -114,11 +114,13 @@ h2, p{
 
 #user-pain-point{
     border: 1px solid black;
-    width: 778px;
-    height: 436px;
-    display: flex;
+    /* width: 800px;
+    height: 700px; */
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     margin: 0 auto;
 }
 .pain-point{
@@ -135,6 +137,9 @@ h2, p{
 }
 .pain-point h3, .pain-point p {
     padding: 0.5rem;
+    width: 264px;
+    margin: 0 auto;
+    text-align: center;
 }
 .red-dot{
     border: 2px solid #e21c21;
@@ -146,4 +151,17 @@ h2, p{
     top: -15px;
     left: -15px;
 
+}
+.pain-point-img{
+    width: 361px;
+    height: 282px;
+}
+#technical{
+    height: 210px;
+}
+#cost{
+    height: 270px;
+}
+#internet{
+    height: 150px;
 }
