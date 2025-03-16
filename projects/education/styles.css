@@ -73,8 +73,9 @@ h1 a{
 }
 
 .edu-profile{
-    max-width: 60rem;
+    width: 60rem;
     height: auto;
+    margin: 0 auto;
 }
 h2, p{
     margin-bottom: 2rem;
