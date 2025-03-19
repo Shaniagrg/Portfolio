@@ -270,37 +270,37 @@ h2, p{
 
 #journey-map{
     border: 3px dashed rgb(169, 169, 169);
-    /* border-radius: 1rem;
-    padding: 2rem;
-    border-collapse: collapse;
-    border-spacing: 0;
-    width: 70%;
-    max-width: 900px;
-    margin: auto;
-    overflow-y: auto; */
     margin-bottom: 4rem;
     border-collapse: collapse;
     
 }
+td{
+    padding: 1.6rem;
+    vertical-align: top;
+    border: 3px dashed rgb(169, 169, 169);
+}
 
+td, th{
+    border-start-start-radius: 3px dashed rgb(169, 169, 169);
+}
+thead{
+    border: none;
+}
 th:first-child{
     background-color: rgb(122, 88, 61);
     color: #fff;
     padding: 1rem;
-    /* vertical-align: top;
-    padding: 1.1rem;
-    min-width: 180px;
-    line-height: 1.2 */
 }
 thead th:first-child{
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
 }
-tr:last-child th:first-child {
+.improvement-opportunities {
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
 }
 td ol{
     list-style: disc;
 }
+
 
