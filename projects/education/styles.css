@@ -412,4 +412,55 @@ td ol{
     margin-bottom: 4rem;
 }
 
+/*accessibility*/
+#accessibility{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    margin-bottom: 4rem;
+}
+
+.a-points{
+    border: 2px solid rgb(169, 169, 169);
+    width: 20rem;
+    height: 10rem;
+    padding: 1.5rem;
+    position: relative;  /* Needed for absolute positioning of the number */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.a-number{
+    background-color: rgb(6, 188, 6);
+    color: white;
+    border-radius: 50%;
+    width: 3.5rem;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /* Positioning it at the top center */
+    position: absolute;
+    top: -1.5rem; /* Moves it above the border */
+    left: 50%;
+    transform: translateX(-50%);
+
+    margin: 0;
+}
+
+.a-number h2 {
+    margin: 0;  /* Remove default h2 margin */
+    padding: 0; /* Remove default padding */
+    line-height: 1; /* Ensures text doesn't push outside */
+    font-size: 1.5rem; /* Adjust size */
+}
+
+.a-points p {
+    margin-top: 3rem; /* Adds spacing from the number */
+    text-align: center;
+}
 
