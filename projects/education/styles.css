@@ -341,4 +341,50 @@ td ol{
     width: 80%;
 }
 
+/*usability study*/
+#usability-study{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.us-rounds{
+    border: 2px solid rgb(169, 169, 169);
+    padding: 2rem;
+    text-align: left;
+    height: 12rem;
+    margin: 1rem;
+    border-radius: 2rem;
+    margin-bottom: 4rem
+}
+
+.us-rounds ol{
+    list-style: none; /* Removes default numbering */
+    counter-reset: list-counter; /* Resets counter */
+}
+
+.us-rounds ol li {
+    counter-increment: list-counter; /* Increments counter */
+    position: relative;
+    padding-left: 2.5rem; /* Space for the number */
+    margin-bottom: 1rem;
+}
+
+.us-rounds ol li::before {
+    content: counter(list-counter); /* Uses the counter value */
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: orange; /* Background of circle */
+    color: white; /* Text color */
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%; /* Makes it a circle */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 1rem;
+}
 
