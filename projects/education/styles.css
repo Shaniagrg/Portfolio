@@ -303,4 +303,25 @@ td ol{
     list-style: disc;
 }
 
+/*paper wireframe*/
+#paper-wireframe{
+    width: 100%;
+    max-width: 80%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    border-radius: 5rem;
+    border: 3px solid rgb(255, 174, 0);
+    padding: 2rem;
+}
+
+#paper-wireframe img{
+    width: 15rem;
+    height: auto;
+}
+#pw-final{
+    grid-column: 3 / 4;
+    grid-row: 1/3;
+    margin-top: 4rem;
+}
 
