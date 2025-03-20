@@ -413,7 +413,7 @@ td ol{
 }
 
 /*accessibility*/
-#accessibility{
+#accessibility, #next-step{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -424,7 +424,7 @@ td ol{
 .a-points{
     border: 2px solid rgb(169, 169, 169);
     width: 20rem;
-    height: 10rem;
+    height: 15rem;
     padding: 1.5rem;
     position: relative;  /* Needed for absolute positioning of the number */
     display: flex;
