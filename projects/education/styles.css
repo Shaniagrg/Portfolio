@@ -376,15 +376,34 @@ td ol{
     left: 0;
     top: 50%;
     transform: translateY(-50%);
-    background-color: orange; /* Background of circle */
+    background-color: rgb(255, 174, 0); 
     color: white; /* Text color */
     width: 2rem;
     height: 2rem;
-    border-radius: 50%; /* Makes it a circle */
+    border-radius: 50%; 
     display: flex;
     align-items: center;
     justify-content: center;
     font-weight: bold;
     font-size: 1rem;
 }
+
+/*mockups*/
+#mockups{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 2rem;
+    place-items: center;
+    margin: 0 auto;
+    margin-bottom: 4rem;
+    width: 80%;
+}
+
+#mockups img{
+    width: 15rem;
+    height: auto;
+    border-radius: 2rem;
+}
+
 
