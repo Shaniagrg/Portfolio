@@ -308,20 +308,32 @@ td ol{
     width: 100%;
     max-width: 80%;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 0.3fr);
     grid-template-rows: repeat(2, 1fr);
     border-radius: 5rem;
     border: 3px solid rgb(255, 174, 0);
     padding: 2rem;
+    margin: 0 auto;
+    margin-bottom: 4rem;
 }
 
 #paper-wireframe img{
     width: 15rem;
     height: auto;
+    margin-left: 3rem;
 }
 #pw-final{
     grid-column: 3 / 4;
     grid-row: 1/3;
-    margin-top: 4rem;
+    margin-top: 8rem;
 }
+
+/*Digital Wireframe*/
+#digital-wireframe{
+    width: 15rem;
+    height: auto;
+    border-radius: 2rem;
+    margin-bottom: 4rem;
+}
+
 
