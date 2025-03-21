@@ -55,15 +55,43 @@ h1 a{
     justify-content: center; 
     min-height: 100vh;
     line-height: 1.5;
+    text-align: center;
 }
 
 #intro{
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 8rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
 }
-
-.into-img{
+#intro-img{
+    display: flex;
+    gap: 5rem;
+}
+.intro-img{
     width: 176px;
     height: auto;
+    gap: 15rem;
+    border-radius: 1.5rem;
 }
+
+/*the-product*/
+#product{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+}
+.product{
+    border-radius: 1.7rem;
+    width: 12rem;
+}
+#intro-customize{
+    width: 15rem;
+    height: auto;
+}
+
