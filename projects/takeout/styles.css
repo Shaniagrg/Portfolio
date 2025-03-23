@@ -78,6 +78,7 @@ h2, p{
     height: auto;
     gap: 15rem;
     border-radius: 1.5rem;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1)
 }
 
 /*the-product*/
@@ -92,6 +93,7 @@ h2, p{
 .product{
     border-radius: 1.7rem;
     width: 12rem;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1)
 }
 #intro-customize{
     width: 15rem;
@@ -145,4 +147,49 @@ h2, p{
     color: white;
     margin: 0 auto;
     margin-bottom: 1.3rem;
+}
+
+/*user-persona*/
+#user-persona{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 4rem;
+}
+
+.up{
+    border: 1px solid #fdffe1;
+    background-color: #fdffe1;
+    border-radius: 1rem;
+    box-shadow: 0 2px 10px rgba(255, 236, 65, 0.23);
+    padding: 2rem;
+}
+
+#up-info{
+    width: 40rem;
+}
+.ryan-img{
+    width: 9rem;
+    border-radius: 1rem;
+}
+#up-info p {
+    margin: 0.3rem 0; /* Adjust the vertical spacing */
+    line-height: 1.3;  /* Improve readability */
+}
+
+#us-goals-frustation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    padding: 2rem;
+    vertical-align: top;
+}
+#us-ryan-desc{
+    border: 2px solid rgb(255, 236, 65);
+    border-radius: 2rem;
+    padding: 1rem;
 }
