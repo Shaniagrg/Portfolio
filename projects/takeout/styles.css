@@ -111,3 +111,38 @@ h2, p{
 .summary-parts{
     width: 30rem;
 }
+
+/*pain-points*/
+
+#pain-points{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.pain-points{
+    width: 18rem;
+    height: 17rem;
+    border: 1px solid #fdffe1;
+    background-color: #fdffe1;
+    border-radius: 1rem;
+    padding: 2rem;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 4rem;
+}
+
+.pain-points p{
+    margin-top: 1rem;
+}
+.pp-number{
+    background-color: red;
+    border-radius: 50%;
+    width: 3.5rem;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin: 0 auto;
+    margin-bottom: 1.3rem;
+}
