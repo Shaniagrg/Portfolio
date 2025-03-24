@@ -229,6 +229,7 @@ td{
     width: 80%;
     margin: 0 auto;
     gap: 2rem;
+    margin-bottom: 4rem;
 }
 .pw-img{
     border-radius: 0.5rem;
@@ -238,7 +239,7 @@ td{
 }
 
 /*digital-wireframe*/
-.digital-wireframe-img{
+.digital-wireframe-img, .low-fidelity-img{
     width: 15rem;
     border-radius: 2rem;
 }
@@ -249,3 +250,13 @@ td{
     gap: 2rem;
     margin-bottom: 4rem;
 }
+
+/*low-fidelity-prptotype*/
+#low-fidelity-img{
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-bottom: 4rem;
+    margin-top: 2rem;
+}
+
