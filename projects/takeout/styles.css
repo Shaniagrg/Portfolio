@@ -236,3 +236,16 @@ td{
     height: auto;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
+
+/*digital-wireframe*/
+.digital-wireframe-img{
+    width: 15rem;
+    border-radius: 2rem;
+}
+
+#dw-img-container{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-bottom: 4rem;
+}
