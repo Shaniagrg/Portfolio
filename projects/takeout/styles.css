@@ -240,7 +240,7 @@ td{
 }
 
 /*digital-wireframe*/
-.digital-wireframe-img, .low-fidelity-img{
+.digital-wireframe-img, .low-fidelity-img, .mockup-img{
     width: 15rem;
     border-radius: 2rem;
 }
@@ -311,5 +311,21 @@ td{
 .us-finding p {
     margin-top: 3rem;
     text-align: center;
+}
+
+/*mockup*/
+
+.mockup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 4rem;
+}
+
+.mockup p{
+    margin-bottom: 1rem;
 }
 
