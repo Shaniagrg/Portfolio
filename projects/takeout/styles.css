@@ -114,15 +114,15 @@ h2, p{
     width: 30rem;
 }
 
-/*pain-points*/
+/*pain-points and accessibility and next-step*/
 
-#pain-points{
+#pain-points, #accessibility, #next-steps{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
 
-.pain-points{
+.pain-points, .accessibility, .next-steps{
     width: 18rem;
     height: 17rem;
     border: 1px solid #fdffe1;
@@ -133,7 +133,7 @@ h2, p{
     margin-bottom: 4rem;
 }
 
-.pain-points p{
+.pain-points p, .accessibility p, .next-steps p{
     margin-top: 1rem;
 }
 .pp-number{
@@ -330,5 +330,20 @@ td{
 }
 
 /*high-fidelity refer to the low-fidelity cuz its same*/
+
+/*take-aways*/
+#take-aways{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1.5rem;
+    text-align: left;
+    padding: 2rem;
+}
+.take-aways{
+    vertical-align: top;
+    padding: 2rem;
+}
+
 
 
