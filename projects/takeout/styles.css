@@ -240,7 +240,7 @@ td{
 }
 
 /*digital-wireframe*/
-.digital-wireframe-img, .low-fidelity-img, .mockup-img{
+.digital-wireframe-img, .low-fidelity-img, .mockup-img, .high-fidelity-img{
     width: 15rem;
     border-radius: 2rem;
 }
@@ -253,7 +253,7 @@ td{
 }
 
 /*low-fidelity-prptotype*/
-#low-fidelity-img{
+#low-fidelity-img, #high-fidelity-img{
     display: flex;
     justify-content: center;
     gap: 1.5rem;
@@ -327,5 +327,10 @@ td{
 
 .mockup p{
     margin-bottom: 1rem;
+}
+
+/*high-fidelity*/
+.high-fidelity-img{
+
 }
 
