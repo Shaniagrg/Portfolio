@@ -108,12 +108,16 @@ h2, p{
     gap: 2.5rem;
     margin-top: 5rem;
     text-align: left;
+    margin-bottom: 4rem;
 }
 
 .summary-parts{
     width: 30rem;
 }
 
+.p{
+    margin-bottom: 4rem;
+}
 /*pain-points and accessibility and next-step*/
 
 #pain-points, #accessibility, #next-steps{
