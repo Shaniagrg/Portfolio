@@ -62,26 +62,37 @@ h2, p{
 }
 
 /*homepage*/
-#homepage{
+#homepage, #profile, #profile-img{
     display: flex;
     justify-content: center;
     align-items: center;
 }
 #homescreen{
     margin: 0 auto;
-    margin-left: 8rem;
+    margin-left: 13rem;
     margin-top: 3rem;
     margin-bottom: 4rem;
 }
-.homescreen{
+#homescreen-laptop{
     width: 42rem;
 }
-.mobile-homescreen{
+#laptop-profile{
+    width: 35rem;
+}
+#mobile-homescreen{
     width: 8rem;
     border-radius: 1rem;
     position: relative;
     right: 8rem;
     top: 1rem;
+}
+#mobile-profile{
+    width: 7rem;
+    border-radius: 1rem;
+    position: relative;
+    left: 6.8rem;
+    top: 4rem;
+
 }
 
 .icon{
@@ -89,7 +100,6 @@ h2, p{
     width: 7rem;
     padding: 0.5rem;
     display: grid;
-    /* margin: 1rem; */
     position: relative;
 }
 
@@ -99,7 +109,7 @@ h2, p{
 }
 
 #zelle{
-    right: 4rem;
+    right: 1rem;
     bottom: 1rem;
 }
 
@@ -113,9 +123,27 @@ h2, p{
 }
 
 #pge{
-    left: 5rem;
+    left: 2rem;
     bottom: 2rem;
 }
 #save{
-    right: 3rem;
+    right: 9rem;
+    bottom: 1rem;
 }
+
+.circle{
+    background-color: #eaf9ff;
+    width: 27rem;
+    height: 27rem;
+    border-radius: 50%;
+    position: absolute;
+    z-index: -1; /* Sends it behind everything */
+    right: 45%;
+    top: 115%;
+}
+#profile{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+
