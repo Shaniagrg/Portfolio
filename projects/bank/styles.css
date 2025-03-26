@@ -266,3 +266,25 @@ td{
     text-align: left;
 }
 
+/*paper-wireframe*/
+#paper-wireframe{
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+#pw-laptop{
+    width: 45rem;
+}
+
+#pw-mobile{
+    width: 11.38rem;
+}
+
+.pw{
+    border-radius: 2rem;
+    border: 1rem solid white;
+}
+
