@@ -238,4 +238,31 @@ h2, p{
     padding: 1rem;
 }
 
+/*user-journey*/
+#user-journey{
+    width: 80%;
+    margin: 0 auto;
+    border: 2px solid black;
+    box-shadow: var(--box-shadow);
+    padding: 1rem;
+    margin-bottom: 4rem;
+    background-color: var(--box-color);
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse; /* Ensures borders do not double up */
+}
+thead th, tr th{
+    padding: 1rem;
+}
+td ol{
+    list-style: disc;
+}
+
+td{
+    padding: 1.6rem;
+    vertical-align: top;
+    text-align: left;
+}
 
