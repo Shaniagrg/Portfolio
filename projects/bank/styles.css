@@ -312,3 +312,15 @@ td{
 .low-fidelity-img{
     width: 22rem;
 }
+
+/*usability-study*/
+#usability-study{
+    display: grid;
+    grid-template-columns: repeat(3,0.5fr);
+}
+.users-icon-img{
+    width: 12rem;
+}
+.us-transfer{
+    grid-column: span 3;
+}
