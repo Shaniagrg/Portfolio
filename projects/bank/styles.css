@@ -375,6 +375,8 @@ td{
 #smiley{
     width: 10rem;
 }
+
+
 /*accessibility*/
 #accessibility, 
 #next-steps{
@@ -405,4 +407,8 @@ td{
     color: white;
     margin: 0 auto;
     margin-bottom: 1.3rem;
+}
+
+.high-fidelity-img{
+    height: 25rem;
 }
