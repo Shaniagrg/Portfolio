@@ -280,7 +280,10 @@ td{
     width: 11.38rem;
 }
 
-.p-d-w, .low-fidelity-img, .mockup-img{
+.p-d-w, 
+.low-fidelity-img, 
+.mockup-img,
+.high-fidelity-img{
     border-radius: 1.1rem;
     border: 1rem solid white;
 }
@@ -301,7 +304,8 @@ td{
 }
 
 /*low-fidelity-img*/
-#low-fidelity-img{
+#low-fidelity-img,
+#high-fidelity-img{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -309,7 +313,9 @@ td{
     gap: 1.5rem;
 }
 
-.low-fidelity-img, .mockup-img{
+.low-fidelity-img, 
+.mockup-img,
+.high-fidelity-img{
     width: 22rem;
 }
 
