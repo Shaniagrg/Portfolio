@@ -146,7 +146,6 @@ h2, p{
 }
 #profile{
     margin-top: 5rem;
-    margin-bottom: 5rem;
 }
 
 #summary{
@@ -157,14 +156,13 @@ h2, p{
     gap: 2.5rem;
     margin-top: 5rem;
     text-align: left;
-    margin-bottom: 4rem;
 }
 
 .summary-parts{
     width: 30rem;
 }
 
-.p{
+.div{
     margin-bottom: 4rem;
 }
 
@@ -174,7 +172,6 @@ h2, p{
     justify-content: center;
     align-items: center;
     gap: 1.5rem;
-    margin-bottom: 4rem;
 }
 #pain-points h3{
     margin: 0.8rem;
@@ -245,8 +242,8 @@ h2, p{
     border: 2px solid black;
     box-shadow: var(--box-shadow);
     padding: 1rem;
-    margin-bottom: 4rem;
     background-color: var(--box-color);
+    margin-bottom: 4rem;
 }
 
 table, th, td {
@@ -267,7 +264,7 @@ td{
 }
 
 /*paper-wireframe*/
-#paper-wireframe{
+.wireframe{
     display: flex;
     gap: 1.5rem;
     justify-content: center;
@@ -283,8 +280,22 @@ td{
     width: 11.38rem;
 }
 
-.pw{
-    border-radius: 2rem;
+.p-d-w{
+    border-radius: 1.1rem;
     border: 1rem solid white;
 }
 
+/*digital-wireframe*/
+#dw{
+    width: 50rem;
+}
+#dw-laptop{
+    width: 30rem;
+}
+#dw-mobile{
+    width: 8rem;
+}
+
+.dw-sv{
+    margin-bottom: 2rem;
+}
