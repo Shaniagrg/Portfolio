@@ -375,3 +375,34 @@ td{
 #smiley{
     width: 10rem;
 }
+/*accessibility*/
+#accessibility, 
+#next-steps{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.accessibility, 
+.next-steps{
+    width: 18rem;
+    height: 17rem;
+    border: 1px solid var(--box-color);
+    background-color: var(--box-color);
+    border-radius: 1rem;
+    padding: 2rem;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 4rem;
+}
+
+.pp-number{
+    background-color: var(--bank-color);
+    border-radius: 50%;
+    width: 3.5rem;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin: 0 auto;
+    margin-bottom: 1.3rem;
+}

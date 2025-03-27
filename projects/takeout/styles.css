@@ -120,13 +120,17 @@ h2, p{
 }
 /*pain-points and accessibility and next-step*/
 
-#pain-points, #accessibility, #next-steps{
+#pain-points, 
+#accessibility, 
+#next-steps{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
 
-.pain-points, .accessibility, .next-steps{
+.pain-points, 
+.accessibility, 
+.next-steps{
     width: 18rem;
     height: 17rem;
     border: 1px solid #fdffe1;
@@ -137,7 +141,9 @@ h2, p{
     margin-bottom: 4rem;
 }
 
-.pain-points p, .accessibility p, .next-steps p{
+.pain-points p, 
+.accessibility p, 
+.next-steps p{
     margin-top: 1rem;
 }
 .pp-number{
@@ -244,7 +250,10 @@ td{
 }
 
 /*digital-wireframe*/
-.digital-wireframe-img, .low-fidelity-img, .mockup-img, .high-fidelity-img{
+.digital-wireframe-img, 
+.low-fidelity-img, 
+.mockup-img, 
+.high-fidelity-img{
     width: 15rem;
     border-radius: 2rem;
 }
@@ -257,7 +266,8 @@ td{
 }
 
 /*low-fidelity-prptotype*/
-#low-fidelity-img, #high-fidelity-img{
+#low-fidelity-img, 
+#high-fidelity-img{
     display: flex;
     justify-content: center;
     gap: 1.5rem;
